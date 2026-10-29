@@ -15,11 +15,9 @@ module, so a product built in another module requires only this one:
 require go.toshicloud.io/product v0.1.0
 ```
 
-The module is not served at its import path yet. Until it is, a product
-module replaces it with the `product/` directory of a Toshi checkout, and
-a distribution built from that checkout names the product's module under
-`[[modules]]` with a `dir` (`docs/backends.md` in Toshi's repository,
-"Products").
+The module is published at `github.com/toshicloud/toshi-product` and
+tagged `v0.1.0`; `go.toshicloud.io/product` resolves to it, so a product
+module requires it like any other module.
 
 ## A product
 
