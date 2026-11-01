@@ -173,8 +173,8 @@ const (
 	PrimitiveStateVolumes Primitive = "state_volumes"
 	// PrimitiveArtifacts is artifacts and recordings.
 	PrimitiveArtifacts Primitive = "artifacts"
-	// PrimitiveChannels is a workload's Link, its forwards and channels.
-	PrimitiveChannels Primitive = "channels"
+	// PrimitiveEndpoints is a workload's Tunnel, its Forwards and endpoints.
+	PrimitiveEndpoints Primitive = "endpoints"
 	// PrimitiveSecrets is workspace secrets.
 	PrimitiveSecrets Primitive = "secrets"
 	// PrimitiveWorkloadIdentity is the workload identity token.
